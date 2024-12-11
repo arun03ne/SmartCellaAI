@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SmartCellaAI/static/css/main.7ddecb4a.css",
+    "main.js": "/SmartCellaAI/static/js/main.18c960de.js",
+    "static/js/488.2c2c4401.chunk.js": "/SmartCellaAI/static/js/488.2c2c4401.chunk.js",
+    "index.html": "/SmartCellaAI/index.html",
+    "main.7ddecb4a.css.map": "/SmartCellaAI/static/css/main.7ddecb4a.css.map",
+    "main.18c960de.js.map": "/SmartCellaAI/static/js/main.18c960de.js.map",
+    "488.2c2c4401.chunk.js.map": "/SmartCellaAI/static/js/488.2c2c4401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ddecb4a.css",
+    "static/js/main.18c960de.js"
+  ]
+}
