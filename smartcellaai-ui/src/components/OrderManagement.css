@@ -1,0 +1,182 @@
+/* Container holding the entire steps layout */
+.steps-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Wrapper for each step and arrow */
+.step-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Individual step container */
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 10px;
+}
+
+/* Style for CheckCircleIcon (Completed) */
+.step .completed {
+  font-size: 40px !important;
+  color: green;
+}
+
+/* Style for ErrorIcon */
+.step .error {
+  font-size: 40px !important;
+  color: red;
+}
+
+/* Style for CircularProgress */
+.step .MuiCircularProgress-root {
+  font-size: 40px !important;
+}
+
+/* Text below each step icon */
+.step-title {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* Style for the arrow between steps */
+.step-arrow {
+  font-size: 30px !important;
+  margin: 0 10px;
+  color: gray;
+}
+
+.arrow-icon {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Main container for order management */
+.order-management {
+  margin-top: 16px;
+}
+
+/* Left-aligned title for headings */
+.left-aligned-title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Toggle button group for input type selection */
+.input-toggle-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Text input requirement container */
+.text-requirement-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* File upload container */
+.upload-container {
+  border: 2px dashed #ccc;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.upload-container.dragging {
+  border-color: #3f51b5;
+}
+
+/* File preview section */
+.file-preview {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.file-preview-content {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+/* Close icon for file preview */
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+}
+
+/* Style for completed step icon */
+.completed {
+  font-size: 40px !important;
+  color: green;
+}
+
+/* Style for error step icon */
+.error {
+  font-size: 40px !important;
+  color: red;
+}
+
+/* Action buttons container */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Upload button */
+.upload-button {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Order history container */
+.order-history-container {
+  margin-top: 30px;
+}
+
+/* Order history and order details table */
+.order-history, 
+.order-details {
+  margin-top: 20px;
+}
+
+/* Pagination container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.console-log {
+  background-color: #242424;
+  color: #b5bd68; /* Default color for console logs */
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-line; /* Preserves line breaks and white space */
+  font-size: 14px;
+  margin-top: 30px;
+}

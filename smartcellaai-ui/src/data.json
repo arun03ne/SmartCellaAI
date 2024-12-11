@@ -1,0 +1,8 @@
+{
+    "invoices": [
+      { "id": "12345", "title": "Invoice A", "date": "2024-12-01" },
+      { "id": "67890", "title": "Invoice B", "date": "2024-12-02" },
+      { "id": "11223", "title": "Invoice C", "date": "2024-12-03" }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+.side-panel {
+  width: 240px;
+  z-index: 1;
+}
+
+.side-panel .MuiDrawer-paper {
+  margin-top: 60px;
+  width: 240px;
+  box-sizing: border-box;
+}
+
+.selected {
+  background-color: rgba(25, 118, 210, 0.1); 
+  border-left: 4px solid #1976d2;
+}
+
+.side-panel a {
+  color: inherit; 
+  text-decoration: none; 
+  display: block;
+}
