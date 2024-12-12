@@ -59,6 +59,7 @@ Desktop.ini
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
+.env
 
 # Optional: Uncomment the next line if you build react native web to "web-build/"
 # web-build
