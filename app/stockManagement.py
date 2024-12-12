@@ -79,7 +79,7 @@ async def processInput(chatRequest: Optional[str] = Form(None), file: UploadFile
 def read_root():
     api_base = "https://oai-learning.openai.azure.com/"
     deployment_name = "gpt-4o"
-    api_key = ""#"6pJKAl6L2Kb3QolQlDw6qooTk1uj7Pa23eu1qaCcGuNriDqDsNaGJQQJ99AKACYeBjFXJ3w3AAABACOG6jv9"
+    api_key = ""
    
     
     
