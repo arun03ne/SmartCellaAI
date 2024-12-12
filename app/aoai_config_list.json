@@ -1,0 +1,23 @@
+[
+    {
+        "model": "gpt-4o",
+        "api_key": "9w9EELXLRBgQa7NhHftPvH1wRS8qSFq3fdbn2GLPZC8QZdQEEvliJQQJ99AKACHYHv6XJ3w3AAAAACOGePJL",
+        "base_url": "https://sunil-m404dwx3-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview",
+        "api_type": "azure",
+        "api_version": "2024-08-01-preview"
+    },
+    {
+        "model": "gpt-4omini",
+        "api_key": "BmhhM5P4FgZHg5E9Z9WibZSuZanUycnm3HZsKS4QlHDz2i5MxeUKJQQJ99ALACYeBjFXJ3w3AAABACOGAS2R",
+        "base_url": "https://stockaiagent.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-08-01-preview",
+        "api_type": "azure",
+        "api_version": "2024-08-01-preview"
+        
+    },
+    {
+        "model": "gemma", 
+   "base_url": "http://127.0.0.1:1234/v1", 
+    "api_type": "openai",
+    "api_key": "NULL"
+}
+]
